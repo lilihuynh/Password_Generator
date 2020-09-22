@@ -45,42 +45,29 @@ function generatePassword() {
 
     if (confirmNumeric) {
         Char = Char + number;
-    
-      }
-    
-      if (confirmSpecial) {
+
+    }
+
+    if (confirmSpecial) {
         Char = Char + special;
-    
-      }
-    
-      if (confirmLowercase) {
+
+    }
+
+    if (confirmLowercase) {
         Char = Char + lowercase;
-    
-      }
-    
-      if (confirmUppercase) {
+
+    }
+
+    if (confirmUppercase) {
         Char = Char + uppercase;
-    
-      }
-    
 
+    }
 
+    for (var i = 1; i <= range; i++) {
+        newpassword = newpassword + Char.charAt(Math.floor(Math.random() * Math.floor(Char.length + 1)));
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return (newpassword);
 }
 
 ///////////////////////////////////////////////////////////////////////
