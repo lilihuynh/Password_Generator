@@ -29,7 +29,13 @@ function generatePassword() {
     var confirmUppercase = confirm("Click OK to confirm including uppercase characters");
     var newpassword = "";
   
-
+    while (confirmSpecial === false && confirmNumeric === false && confirmLowercase === false && confirmUppercase === false) {
+        alert("Please choose at least one character type");
+        confirmSpecial = confirm("Click OK to confirm including special characters");
+        confirmNumeric = confirm("Click OK to confirm including numeric characters");
+        confirmLowercase = confirm("Click OK to confirm including lowercase characters");
+        confirmUppercase = confirm("Click OK to confirm including uppercase characters");
+      }
 
 
 
