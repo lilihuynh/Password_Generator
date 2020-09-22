@@ -43,7 +43,26 @@ function generatePassword() {
     var special = "!@#$%^&*()_+";
     var Char = "";
 
-
+    if (confirmNumeric) {
+        Char = Char + number;
+    
+      }
+    
+      if (confirmSpecial) {
+        Char = Char + special;
+    
+      }
+    
+      if (confirmLowercase) {
+        Char = Char + lowercase;
+    
+      }
+    
+      if (confirmUppercase) {
+        Char = Char + uppercase;
+    
+      }
+    
 
 
 
