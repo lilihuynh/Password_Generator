@@ -35,6 +35,22 @@ git clone https://github.com/lillianhuynh/My-Portfolio-template
 
 ## Usage
 
+Repeatedly using the same passwords or using 'weak' passwords can leave you vulnerable to hackers. This application will help you to generate a secured and strong password to protect sensitive accounts that hold your confidential, personal data. 
+
+You can start by clicking 'Generate Password' button, and answer some promted questions to include your desired character types.
+
+| Length     | Special Characters|
+|------------|------------|
+| <img src="images/length.png" width="400"> | <img src="images/special.png" width="400"> |
+
+| Numeric    | Lowercase         |
+|------------|------------|
+| <img src="images/numeric.png" width="400"> | <img src="images/lowercase.png" width="400"> |
+
+| Uppercase  | 
+|------------|
+| <img src="images/uppercase.png" width="400"> | 
+
 ## Roadmap
 
 See the [open issues](https://github.com/lillianhuynh/Password_Generator/issues) for a list of proposed features (and known issues).
