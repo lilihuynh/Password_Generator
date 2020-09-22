@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/lillianhuynh/My-Portfolio-template
+git clone https://github.com/lillianhuynh/Password_Generator
 ```
 
 ## Usage
