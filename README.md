@@ -17,12 +17,9 @@ Github-page: [https://lillianhuynh.github.io/Password_Generator/]
 * [Contact](#contact)
 
 ## About The Project
-![Project Screenshot]( )
+![Project Screenshot](images/default.png)
 
-
-
-
-
+"Password_Generator" was built to generate a secured random password based on user-selected criteria. User can choose password length from 8 to 128 characters. User can aslo choose to include desired character types such as lowercase, uppercase, numeric, and/or special characters.
 
 
 ## Getting Started
