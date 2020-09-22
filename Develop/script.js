@@ -11,6 +11,17 @@
 //
 // * Gather user input with prompt's and confirm's
 
+function generatePassword() {
+  
+    var range = 0;
+  
+    while (range < 8 || range > 128) {
+      var rangeChar = prompt("How many characters would you like your password to contain (8-128 characters)?");
+      range = parseInt(rangeChar);
+      if (range < 8 || range > 128) {
+        alert("Please choose password length from 8-128 characters");
+      }
+    }
 
 
 
@@ -36,8 +47,7 @@
 
 
 
-
-
+}
 
 ///////////////////////////////////////////////////////////////////////
 // DO NOT TOUCH THIS CODE
