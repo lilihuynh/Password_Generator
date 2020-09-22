@@ -23,7 +23,12 @@ function generatePassword() {
       }
     }
 
-
+    var confirmSpecial = confirm("Click OK to confirm including special characters");
+    var confirmNumeric = confirm("Click OK to confirm including numeric characters");
+    var confirmLowercase = confirm("Click OK to confirm including lowercase characters");
+    var confirmUppercase = confirm("Click OK to confirm including uppercase characters");
+    var newpassword = "";
+  
 
 
 
