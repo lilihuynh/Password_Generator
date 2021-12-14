@@ -1,15 +1,3 @@
-///////////////////////////////////////////////////////////////////////
-// PASSWORD GENERATOR
-//
-// * For this assignment, you will not be changing the HTML and CSS at all.
-//
-// * You will need a generatePassword function is called when the user
-//   clicks the Generate Password button.
-//
-// * You can create other functions that are called from within
-//   generatePassword
-//
-// * Gather user input with prompt's and confirm's
 
 function generatePassword() {
 
